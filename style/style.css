@@ -1,3 +1,9 @@
+@import url(font.css);
+
+*{
+    font-family: poppins;
+}
+
 body {
     margin: 0;
     background-color: rgb(0, 0, 0);
@@ -146,4 +152,21 @@ h1{
     opacity: 1;
     transition-delay: 0.5s;
 
+}
+.link i{
+    color: rgb(253, 253, 253);
+    margin: 1rem;
+    transition: all 0.5s ease;
+}
+.link i:hover{
+    color: rgb(243, 107, 159);
+    transform: scale(3);
+
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 30%;
 }
